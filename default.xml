@@ -559,7 +559,7 @@
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
   
-  <!-- My Additions -->
+  <!-- Device Additions -->
   <project path="android" name="optimizedcyanogenmodlt03lte/android" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" />
@@ -567,6 +567,11 @@
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
+  
+  <!-- Device Sources -->
+  <project path="device/samsung/lt03lte" name="optimizedcyanogenmodlt03lte/device_lt03lte_nougat" />
+  <project path="kernel/samsung/lt03lte" name="optimizedcyanogenmodlt03lte/kernel_samsung_lt03lte_nougat2" />
+  <project path="vendor/samsung/lt03lte" name="optimizedcyanogenmodlt03lte/vendor_samsung_l03lte_nougat" />
   
   
 </manifest>
