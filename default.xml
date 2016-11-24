@@ -561,6 +561,12 @@
   
   <!-- My Additions -->
   <project path="android" name="optimizedcyanogenmodlt03lte/android" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
+  <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
+  <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   
   
 </manifest>
