@@ -19,9 +19,6 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
@@ -572,6 +569,12 @@
   <project path="kernel/samsung/lt03lte" name="optimizedcyanogenmodlt03lte/kernel_samsung_lt03lte_nougat2" />
   <project path="vendor/samsung/lt03lte" name="optimizedcyanogenmodlt03lte/vendor_samsung_l03lte_nougat" />
   <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" />
+  
+  <!-- My Optimized Sources -->
+  <project path="build" name="optimizedcyanogenmodlt03lte/android_build" groups="pdk,tradefed">
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
   
   
 </manifest>
