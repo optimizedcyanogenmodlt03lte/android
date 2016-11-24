@@ -571,6 +571,7 @@
   <project path="device/samsung/lt03lte" name="optimizedcyanogenmodlt03lte/device_lt03lte_nougat" />
   <project path="kernel/samsung/lt03lte" name="optimizedcyanogenmodlt03lte/kernel_samsung_lt03lte_nougat2" />
   <project path="vendor/samsung/lt03lte" name="optimizedcyanogenmodlt03lte/vendor_samsung_l03lte_nougat" />
+  <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" />
   
   
 </manifest>
