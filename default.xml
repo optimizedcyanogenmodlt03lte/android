@@ -2,8 +2,7 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com/"
-           revision="refs/head/cm-14.1"      />
+           fetch="https://github.com/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
