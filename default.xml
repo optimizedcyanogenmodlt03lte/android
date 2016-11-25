@@ -573,13 +573,10 @@
   <!-- My Optimized Sources -->
   <project path="build" name="optimizedcyanogenmodlt03lte/android_build" groups="pdk,tradefed">
   <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   
   <!-- UBERTC Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="optimizedcyanogenmodlt03lte/UBERTC-arm-eabi-4.9" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="optimizedcyanogenmodlt03lte/UBERTC-arm-linux-androideabi-4.9" revision="master" />
-  
-  </project>
-  
-  
   
 </manifest>
